@@ -63,13 +63,13 @@ cd Customer-Onboarding-Form
 ### Backend Setup (Node.js + Express)
     cd server
     npm install
-    npm install -D tailwindcss postcss autoprefixer
-    npx tailwindcss init -p
     npm install nodemailer
     node server.js
 ### Frondend Setup(React + Tailwind CSS)
     cd client
     npm install
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
     npm install leaflet react-leaflet
     npm install lucide-react
     npm start
